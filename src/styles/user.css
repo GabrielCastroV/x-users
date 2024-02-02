@@ -1,0 +1,75 @@
+.user-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.user-img {
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    cursor: pointer;
+}
+
+.user-data {
+    margin-right: 4rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+}
+
+.user-name {
+    font-size: larger;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.user-name:hover {
+    text-decoration: underline;
+}
+
+.user-at{
+    font-size: small;
+
+}
+
+.follow-btn {
+    padding: 0 1.4rem;
+    display: grid;
+    place-items: center;
+    border-radius: 40px;
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    font-weight: 700;
+    height: 2rem;
+}
+
+.follow-btn:hover {
+    background-color: rgb(220, 220, 230);
+    color: rgb(0, 0, 0);
+    transition: 0.15s all ease-in-out;
+}
+
+.unfollow-btn {
+    padding: 0 1.4rem;
+    display: grid;
+    place-items: center;
+    border-radius: 40px;
+    background-color: rgb(23, 22, 32);
+    border: 1px solid rgb(162, 162, 205);
+    color: rgb(188, 192, 225);
+    cursor: pointer;
+    font-weight: 700;
+    height: 2rem;
+}
+
+.unfollow-btn:hover {
+    background-color: rgb(202, 202, 213);
+    color: rgb(0, 0, 0);
+    transition: 0.15s all ease-in-out;
+}
