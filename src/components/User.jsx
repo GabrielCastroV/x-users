@@ -7,7 +7,7 @@ const User = ({ id, username, name, isFollowing, cambiarFollow}) => {
     <div className="user-container" id={id}>
         <img src={`https://unavatar.io/twitter/${username}`} alt={`imagen de ${username}`} className='user-img'/>
         <div className='user-data'>
-          <a href={`http://twitter.com/${username}`} className='user-name' target="_blank" rel="noopener noreferrer">{name}</a>
+          <a href={`https://twitter.com/${username}`} className='user-name' target="_blank" rel="noopener noreferrer">{name}</a>
           <div className='user-at'>@{username}</div>
         </div>
         <button 
